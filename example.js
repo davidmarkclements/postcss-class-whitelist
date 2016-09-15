@@ -5,6 +5,7 @@ var css = `
   .classes { background: blue; }
   .classes h1 { background: red; }
   .should-disappear { color: blue; }
+  body { font-size: 17px; }
 `
 
 var result = postcss(whitelist({

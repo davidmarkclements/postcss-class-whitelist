@@ -10,7 +10,7 @@ module.exports = postcss.plugin('postcss-class-whitelist', function (options) {
     css.walkRules(function (rule) {
       var selectors = rule.selectors
       var filtered = selectors.filter(function (s) {
-        return ~classes.indexOf(s)
+        return s[0] !== '.' || ~classes.indexOf(s)
       })
 
       if (filtered.length > 1) {
