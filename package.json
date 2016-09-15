@@ -1,6 +1,6 @@
 {
   "name": "postcss-class-whitelist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove any class selector not in a provided whitelist",
   "main": "index.js",
   "directories": {
