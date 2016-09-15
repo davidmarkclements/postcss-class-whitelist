@@ -1,0 +1,4 @@
+.my, .allowed, .will-be-stripped { font-size: 12px; }
+.classes { background: blue; }
+.classes h1 { background: red; }
+.should-disappear { color: blue; }

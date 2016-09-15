@@ -1,0 +1,21 @@
+{
+  "name": "postcss-class-whitelist",
+  "version": "1.0.0",
+  "description": "Remove any class selector not in a provided whitelist",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "postcss": "^5.2.0"
+  },
+  "devDependencies": {
+    "tap": "^7.1.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "keywords": [],
+  "author": "David Mark Clements",
+  "license": "MIT"
+}
