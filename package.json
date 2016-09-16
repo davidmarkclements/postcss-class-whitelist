@@ -17,5 +17,13 @@
   },
   "keywords": [],
   "author": "David Mark Clements",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/postcss-class-whitelist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/postcss-class-whitelist/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/postcss-class-whitelist#readme"
 }
